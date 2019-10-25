@@ -1,5 +1,5 @@
 def roll_call_dwarves# code an argument here
-  # Your code here
+
   dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
   %w("Doc", "Dopey", "Bashful", "Grumpy").each_with_index { |item, index|
   dwarves[item] = index
@@ -7,7 +7,7 @@ def roll_call_dwarves# code an argument here
 end
 
 def summon_captain_planet# code an argument here
-  # Your code here
+  
   planeteer_calls = ["earth", "wind", "fire", "water", "heart"]
   planeteer_calls.map{|item| "#{item.upcase}!" }
   summon_captain_planet(planeteer_calls)
